@@ -21,6 +21,14 @@ A minimal take on creating the ultimate Firefox css
 ### Foximate: private window with treestyle tabs
 ![Foximate Preview: private window with treestyle tabs](/images/Foximate-private-treestyle.png?raw=true "Foximate Preview: private window with treestyle tabs")
 
+## Installation
+
+1. Go to `about:profiles` and click `Show in Finder` button next to `Root Directory`.
+2. Create a folder `chrome` if it does not already exist.
+3. Copy the ![userChrome.css](/userChrome.css "link to Foximate css code") file to this (chrome) directory.
+4. Set `toolkit.legacyUserProfileCustomizations.stylesheets` in `about:config` to `true`.
+5. Restart Firefox for changes to take effect.
+
 ## Contributing
 Found a bug or something is broken?
 Have a suggestion or feature you want added?
