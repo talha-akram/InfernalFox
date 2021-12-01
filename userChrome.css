@@ -1,0 +1,62 @@
+/* hide title bar and its elements */
+#titlebar-secondary-buttonbox,
+#titlebar .toolbar-items,
+#titlebar .titlebar-spacer,
+.private-browsing-indicator,
+#toolbar-menubar,
+#tabbrowser-tabs {
+  display: none;
+}
+
+#alltabs-button {
+  z-index: 9 !important;
+  display: block !important;
+  position: relative;
+}
+/* hide sidebar header */
+#sidebar-header {
+    display: none;
+}
+
+/* merge tabs bar with window controls into address bar */
+#TabsToolbar {
+  margin-bottom: -34px !important;
+}
+
+/* push nav bar down to compensate for missing titlebar */
+#nav-bar {
+  margin-top: 12px;
+}
+
+/* move nav panel in slightly to prevent covering window controls */
+#nav-bar-customization-target {
+  padding-left: 68px;
+}
+
+/* center window control buttons on nav bar */
+.titlebar-buttonbox-container .titlebar-buttonbox {
+  margin-top: 2px !important;
+}
+
+/* align nav bar buttons vertically with window control buttons */
+#PanelUI-menu-button,
+#stop-reload-button,
+#nav-bar-customization-target > .toolbarbutton-1 {
+  margin-top: 3px !important;
+}
+
+/* fix bar alignment for private browsing windows */
+#main-window[privatebrowsingmode="temporary"] .titlebar-buttonbox-container .titlebar-buttonbox {
+/*   margin-top: 4px !important; */
+}
+
+/* fix address bar alignment for normal browsing windows */
+/* #main-window:not([privatebrowsingmode])  */
+#urlbar-container #urlbar {
+  margin-top: 2px !important;
+}
+
+/* color menu button to mark private browsing windows */
+#main-window[privatebrowsingmode="temporary"] #PanelUI-menu-button > .toolbarbutton-badge-stack {
+  background-color: #25003E;
+}
