@@ -3,7 +3,7 @@
 A minimal take on creating the ultimate Firefox css
 
 ## Key Features
-1. space efficient - one bar layout works well with treestyle tabs
+1. space efficient - one bar layout works well with [tree style tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
 2. well commented few changes made to css, easy to maintain and easy to extend
 3. coloured menu button to differentiate private windows
 
