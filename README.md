@@ -9,23 +9,23 @@ A minimal take on creating the ultimate Firefox css
 
 ## Preview
 
-### Foximate: normal window
-![Foximate Preview: normal window ](/images/Foximate-normal.png?raw=true "Foximate Preview: normal window")
+### InfernalFox: normal window
+![InfernalFox Preview: normal window ](/images/Foximate-normal.png?raw=true "InfernalFox Preview: normal window")
 
-### Foximate: normal window with treestyle tabs
-![Foximate Preview: normal window with treestyle tabs](/images/Foximate-normal-treestyle.png?raw=true "Foximate Preview: normal window with treestyle tabs")
+### InfernalFox: normal window with treestyle tabs
+![InfernalFox Preview: normal window with treestyle tabs](/images/Foximate-normal-treestyle.png?raw=true "InfernalFox Preview: normal window with treestyle tabs")
 
-### Foximate: private window
-![Foximate Preview: private window](/images/Foximate-private.png?raw=true "Foximate Preview: private window")
+### InfernalFox: private window
+![InfernalFox Preview: private window](/images/Foximate-private.png?raw=true "Foximate Preview: private window")
 
-### Foximate: private window with treestyle tabs
-![Foximate Preview: private window with treestyle tabs](/images/Foximate-private-treestyle.png?raw=true "Foximate Preview: private window with treestyle tabs")
+### InfernalFox: private window with treestyle tabs
+![InfernalFox Preview: private window with treestyle tabs](/images/Foximate-private-treestyle.png?raw=true "InfernalFox Preview: private window with treestyle tabs")
 
 ## Installation
 
 1. Go to `about:profiles` and click `Show in Finder` button next to `Root Directory`.
 2. Create a folder `chrome` if it does not already exist.
-3. Copy the ![userChrome.css](/userChrome.css "link to Foximate css code") file to this (chrome) directory.
+3. Copy the ![userChrome.css](/userChrome.css "link to InfernalFox css code") file to this (chrome) directory.
 4. Set `toolkit.legacyUserProfileCustomizations.stylesheets` in `about:config` to `true`.
 5. Restart Firefox for changes to take effect.
 
