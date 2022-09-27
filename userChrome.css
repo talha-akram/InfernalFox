@@ -8,6 +8,13 @@
   display: none;
 }
 
+/* Support for Windows */
+/*
+#TabsToolbar { visibility: collapse !important; }
+#sidebar-header { visibility: collapse !important; }
+#titlebar { appearance: none !important }
+*/
+
 #alltabs-button {
   z-index: 9 !important;
   display: block !important;
