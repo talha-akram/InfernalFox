@@ -20,6 +20,7 @@
   display: block !important;
   position: relative;
 }
+
 /* hide sidebar header */
 #sidebar-header {
     display: none;
@@ -30,37 +31,9 @@
   margin-bottom: -34px !important;
 }
 
-/* push nav bar down to compensate for missing titlebar */
-#nav-bar {
-  margin-top: 12px;
-}
-
 /* move nav panel in slightly to prevent covering window controls */
 #nav-bar-customization-target {
   padding-left: 68px;
-}
-
-/* center window control buttons on nav bar */
-.titlebar-buttonbox-container .titlebar-buttonbox {
-  margin-top: 2px !important;
-}
-
-/* align nav bar buttons vertically with window control buttons */
-#PanelUI-menu-button,
-#stop-reload-button,
-#nav-bar-customization-target > .toolbarbutton-1 {
-  margin-top: 3px !important;
-}
-
-/* fix bar alignment for private browsing windows */
-#main-window[privatebrowsingmode="temporary"] .titlebar-buttonbox-container .titlebar-buttonbox {
-/*   margin-top: 4px !important; */
-}
-
-/* fix address bar alignment for normal browsing windows */
-/* #main-window:not([privatebrowsingmode])  */
-#urlbar-container #urlbar {
-  margin-top: 2px !important;
 }
 
 /* color menu button to mark private browsing windows */
