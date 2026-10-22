@@ -1,4 +1,4 @@
-# InfernalFox (formerly Foximate)
+# InfernalFox
 
 A minimal take on creating the ultimate Firefox css
 
