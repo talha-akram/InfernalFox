@@ -8,6 +8,20 @@
   display: none;
 }
 
+#sidebar-box {
+  padding-inline-start: 0px !important;
+}
+
+#TabsToolbar-customization-target,
+toolbarbutton.private-browsing-indicator-button,
+#sidebar-panel-header {
+  display: none;
+  visibility: hidden;
+}
+
+.titlebar-buttonbox-container {
+  padding-top: 12px;
+}
 /* Support for Windows */
 /*
 #TabsToolbar { visibility: collapse !important; }
@@ -15,11 +29,11 @@
 #titlebar { appearance: none !important }
 */
 
-#alltabs-button {
-  z-index: 9 !important;
-  display: block !important;
-  position: relative;
-}
+/* #alltabs-button { */
+/*   z-index: 9 !important; */
+/*   display: block !important; */
+/*   position: relative; */
+/* } */
 
 /* hide sidebar header */
 #sidebar-header {
@@ -31,12 +45,17 @@
   margin-bottom: -34px !important;
 }
 
-/* move nav panel in slightly to prevent covering window controls */
 #nav-bar-customization-target {
-  padding-left: 68px;
+  padding-left: 72px;
+  padding-top: 8px;
+}
+
+#PanelUI-menu-button {
+  padding-top: 8px !important;
 }
 
 /* color menu button to mark private browsing windows */
 #main-window[privatebrowsingmode="temporary"] #PanelUI-menu-button > .toolbarbutton-badge-stack {
   background-color: #25003E;
 }
+
