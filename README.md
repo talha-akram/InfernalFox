@@ -10,16 +10,16 @@ A minimal take on creating the ultimate Firefox css
 ## Preview
 
 ### InfernalFox: normal window
-![InfernalFox Preview: normal window ](/images/Foximate-normal.png?raw=true "InfernalFox Preview: normal window")
+<img width="1293" height="742" alt="InfernalFox Preview: normal window" src="https://github.com/user-attachments/assets/fc3a743f-7db0-4d8e-9d50-5c3d5d0dd62f" />
 
 ### InfernalFox: normal window with treestyle tabs
-![InfernalFox Preview: normal window with treestyle tabs](/images/Foximate-normal-treestyle.png?raw=true "InfernalFox Preview: normal window with treestyle tabs")
+<img width="1292" height="740" alt="InfernalFox Preview: normal window with treestyle tabs" src="https://github.com/user-attachments/assets/9aba7c1c-31f5-41b4-bb91-1504478c0741" />
 
 ### InfernalFox: private window
-![InfernalFox Preview: private window](/images/Foximate-private.png?raw=true "Foximate Preview: private window")
+<img width="1293" height="741" alt="InfernalFox Preview: private window" src="https://github.com/user-attachments/assets/d8e85184-f797-4008-ab71-b529c23125a0" />
 
 ### InfernalFox: private window with treestyle tabs
-![InfernalFox Preview: private window with treestyle tabs](/images/Foximate-private-treestyle.png?raw=true "InfernalFox Preview: private window with treestyle tabs")
+<img width="1293" height="742" alt="InfernalFox Preview: private window with treestyle tabs" src="https://github.com/user-attachments/assets/3ff305f0-0a64-49a2-acd6-3541b7ecb193" />
 
 ## Installation
 
