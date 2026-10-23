@@ -29,14 +29,14 @@ A minimal take on creating the ultimate Firefox css
 4. Set `toolkit.legacyUserProfileCustomizations.stylesheets` in `about:config` to `true`.
 5. Restart Firefox for changes to take effect.
 
-## How to hide the sidebar?
+## How to hide the sidebar buttons and make it look like in the screenshots above?
 1. Right click on the sidebar
 2. Click "Customize sidebar"
 3. Uncheck "open open tools from sidebar"
-4. Click the "X" next to the sidebar to close customization.
+4. Click the "X" next to "Customize sidebar" to close customization.
 5. Reopen "Tree Style Tab" using shortcut `Option + A` or through extension button in the address bar.
 
-<img width="344" height="423" alt="Image" src="https://github.com/user-attachments/assets/ddb69d90-6750-47ec-a8ef-40251d4192d4" />
+<img width="348" height="422" alt="how to hide sidebar buttons" src="https://github.com/user-attachments/assets/6d4817c1-e7a3-49a5-8a61-ca86d95911e7" />
 
 ## Contributing
 Found a bug or something is broken?
