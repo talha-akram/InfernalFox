@@ -29,8 +29,8 @@ A minimal take on creating the ultimate Firefox css
 4. Set `toolkit.legacyUserProfileCustomizations.stylesheets` in `about:config` to `true`.
 5. Restart Firefox for changes to take effect.
 
-## How to hide the sidebar buttons and make it look like in the screenshots above?
-1. Right click on the sidebar
+## How to hide the sidebar buttons and make it look like the screenshots above?
+1. Right click on the sidebar, in the screenshots above the sidebar is set to open on the right side of the window instead of it's default left side.
 2. Click "Customize sidebar"
 3. Uncheck "open open tools from sidebar"
 4. Click the "X" next to "Customize sidebar" to close customization.
